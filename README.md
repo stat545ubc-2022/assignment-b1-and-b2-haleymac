@@ -1,20 +1,33 @@
-# This repository contains all files for Haley MacDonald's completed assignment B1 for STAT545B
 
-## File descriptions:
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-**assignment-b1.Rmd** This .Rmd file contains unrendered descriptions and codechunks that form the raw base of this assignment. To view and edit this file, load it in R studio and knit it for a rendered view of contents
+# assignmentb1andb2haleymac
 
-**assignment-b1.md** This .md file contains the fully rendered and completed project document. To view this completed project, open this file in github to view rendered descriptions with R markdown formatting and codechunks containing completed assignment tasks. 
+<!-- badges: start -->
+<!-- badges: end -->
 
-**assignment-b1_files** This folder contains .png images generated from plotting codechunks in assignment-b1.Rmd
+The goal of assignmentb1andb2haleymac is to create a package with a
+function. This package contains a function called histogram_maker() that
+creates histograms from specified data frame columns with a customizable
+bin width.
 
-# This repository contains all files for Haley MacDonald's completed assignment B1 for STAT545B
+## Installation
 
-## File descriptions:
+You can install the development version of assignmentb1andb2haleymac
+like so:
 
-**assignment-b1.Rmd** This .Rmd file contains unrendered descriptions and codechunks that form the raw base of this assignment. To view and edit this file, load it in R studio and knit it for a rendered view of contents
+``` r
+install_github("haleymac/assignmentb1andb2haleymac", ref = "0.1.1")
+```
 
-**assignment-b1.md** This .md file contains the fully rendered and completed project document. To view this completed project, open this file in github to view rendered descriptions with R markdown formatting and codechunks containing completed assignment tasks. 
+## Example
 
-**assignment-b1_files** This folder contains .png images generated from plotting codechunks in assignment-b1.Rmd
+This is a basic example of how to use the histogram_maker function:
 
+``` r
+library(assignmentb1andb2haleymac)
+
+histogram_maker(mtcars, mtcars$cyl, 1)
+```
+
+<img src="man/figures/README-example-1.png" width="100%" />

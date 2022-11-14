@@ -1,0 +1,39 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# assignmentb1andb2haleymac
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of assignmentb1andb2haleymac is to create a package with a function. This package contains a function called histogram_maker() that creates histograms from specified data frame columns with a customizable bin width. 
+
+## Installation
+
+You can install the development version of assignmentb1andb2haleymac like so:
+
+``` r
+install_github("haleymac/assignmentb1andb2haleymac", ref = "0.1.1")
+```
+
+## Example
+
+This is a basic example of how to use the histogram_maker function:
+
+```{r example}
+library(assignmentb1andb2haleymac)
+
+histogram_maker(mtcars, mtcars$cyl, 1)
+```

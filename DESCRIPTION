@@ -1,0 +1,18 @@
+Package: assignmentb1andb2haleymac
+Title: Easy Histogram Maker
+Version: 0.0.0.9000
+Authors@R: 
+    person("Haley", "MacDonald", , "hmacdo08@student.ubc.ca", role = c("aut", "cre"))
+Description: Creates a histogram from a specified data frame column with a customizable binwidth by using the ggplot2 package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    dplyr,
+    ggplot2,
+    magrittr,
+    palmerpenguins
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
