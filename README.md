@@ -16,7 +16,7 @@ You can install the development version of assignmentb1andb2haleymac
 like so:
 
 ``` r
-install_github("haleymac/assignmentb1andb2haleymac", ref = "0.1.1")
+install_github("haleymac/assignmentb1andb2haleymac", ref = "0.1.0")
 ```
 
 ## Example
