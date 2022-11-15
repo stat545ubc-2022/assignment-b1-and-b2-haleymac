@@ -1,6 +1,6 @@
 Package: assignmentb1andb2haleymac
 Title: Easy Histogram Maker
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: 
     person("Haley", "MacDonald", , "hmacdo08@student.ubc.ca", role = c("aut", "cre"))
 Description: Creates a histogram from a specified data frame column with a customizable binwidth by using the ggplot2 package.

@@ -16,7 +16,7 @@ You can install the development version of assignment-b1-and-b2-haleymac
 like so:
 
 ``` r
-install_github("stat545ubc-2022/assignment-b1-and-b2-haleymac", ref = "0.1.1")
+install_github("stat545ubc-2022/assignment-b1-and-b2-haleymac", ref = "0.1.2")
 ```
 
 Note to use the package in your current environment call it with no
