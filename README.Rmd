@@ -15,17 +15,24 @@ knitr::opts_chunk$set(
 
 # assignmentb1andb2haleymac
 
+
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of assignmentb1andb2haleymac is to provide a function called histogram_maker() that creates histograms from specified data frame columns with a customizable bin width. 
+The goal of assignment-b1-and-b2-haleymac is to provide a function called histogram_maker() that creates histograms from specified data frame columns with a customizable bin width. 
 
 ## Installation
 
-You can install the development version of assignmentb1andb2haleymac like so:
+You can install the development version of assignment-b1-and-b2-haleymac like so:
 
 ``` r
-install_github("haleymac/assignmentb1andb2haleymac", ref = "0.1.1")
+install_github("stat545ubc-2022/assignment-b1-and-b2-haleymac", ref = "0.1.1")
+```
+
+Note to use the package in your current environment call it with no dashes, like so: 
+
+``` r
+library(assignmentb1andb2haleymac)
 ```
 
 ## Example
