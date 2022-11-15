@@ -15,7 +15,6 @@ knitr::opts_chunk$set(
 
 # assignmentb1andb2haleymac
 
-
 <!-- badges: start -->
 <!-- badges: end -->
 

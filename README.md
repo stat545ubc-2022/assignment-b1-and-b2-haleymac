@@ -3,8 +3,6 @@
 
 # assignmentb1andb2haleymac
 
-\#NEED TO FIX DASHES IN PROJECT NAME FOR CONSISTENCY
-
 <!-- badges: start -->
 <!-- badges: end -->
 
