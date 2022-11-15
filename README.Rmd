@@ -36,10 +36,14 @@ library(assignmentb1andb2haleymac)
 
 ## Example
 
-This is a basic example of how to use the histogram_maker function:
+Here are two basic examples of how to use the histogram_maker function:
+  Note that the histo_variable parameter should be in dataframe$columnname format
 
 ```{r example}
 library(assignmentb1andb2haleymac)
 
 histogram_maker(mtcars, mtcars$cyl, 1)
+
+histogram_maker(mtcars, mtcars$mpg, 0.5)
 ```
+

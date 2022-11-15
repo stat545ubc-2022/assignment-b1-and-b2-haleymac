@@ -28,7 +28,9 @@ library(assignmentb1andb2haleymac)
 
 ## Example
 
-This is a basic example of how to use the histogram_maker function:
+Here are two basic examples of how to use the histogram_maker function:
+Note that the histo_variable parameter should be in
+dataframe\$columnname format
 
 ``` r
 library(assignmentb1andb2haleymac)
@@ -37,3 +39,10 @@ histogram_maker(mtcars, mtcars$cyl, 1)
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
+
+``` r
+
+histogram_maker(mtcars, mtcars$mpg, 0.5)
+```
+
+<img src="man/figures/README-example-2.png" width="100%" />
